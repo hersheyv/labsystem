@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Technician Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    {{!<link rel="stylesheet" href="./style.css">}}
+    <style>
+        body {
+            align-items: center;
+            background-color: #fff2df;
+            display:block;
+            justify-content: center;
+        }
+
+        .form {
+            background-color:#d9ad7c;
+            border-radius: 20px;
+            box-sizing: border-box;
+            height: 600px;
+            padding: 20px;
+            width: 700px;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .input-container {
+            height: 50px;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .input {
+            background-color: #fff2df;
+            border-radius: 12px;
+            border: 0;
+            box-sizing: border-box;
+            color: #674d3c;
+            font-size: 17px;
+            height: 150%;
+            outline: 0;
+            padding: 4px 20px 0;
+            width: 100%;
+        }
+
+        label {
+            color: #674d3c;
+            font-size: 17px;
+        }
+
+        .button {
+            background-color: #a2836e;
+            border-radius: 12px;
+            border: 0;
+            box-sizing: border-box;
+            color: #eee;
+            cursor: pointer;
+            font-size: 18px;
+            height: 50px;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 25px;
+            /* color: beige; */
+            color: #674d3c;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-login">
+        <div class="form">
+            <form action="/technician-home" method="get">
+                <h2>Lab Technicians Login Here</h2>
+                <br>
+                <img src="https://static.vecteezy.com/system/resources/previews/046/457/522/non_2x/sketch-computer-block-and-monitor-isolated-power-button-and-screen-contour-technologies-desktop-display-linear-office-equipment-pencil-drawing-of-object-on-white-background-illustration-vector.jpg" height="130px">
+                <br>
+                <div class="input-container">
+                    <input id="email" class="input" type="email" placeholder=" "/>
+                    <label for="email">Email</label>
+                </div>
+                <br>
+                <div class="input-container">
+                    <input id="password" class="input" type="password" placeholder=" "/>
+                    <label for="password">Password</label>
+                </div>
+                <br><br>
+                <button type="submit" class="button">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Technician Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    {{!<link rel="stylesheet" href="./style.css">}}
+    <style>
+        body {
+    align-items: center;
+    background-color: #fff2df;
+    display:block;
+    justify-content: center;
+}
+
+.form {
+    background-color:#d9ad7c;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 20px;
+    width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #a2836e;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #674d3c;
+    text-align: center;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.header button {
+    position: relative;
+    float: right;
+    background-color: #a2836e;
+    color: #eee;
+    text-align: center;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 12px;
+    width: 7%;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logout">
+            <form action="index_login.html">
+                <button class="topleft button-small" >Logout</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="form">
+        <h1>Lab Technician</h1>
+        <form action="technician_slots.html">
+            <button type="submit" class="button">Make reservation for walk-in students</button>
+        </form>
+    </div>
+</body>
+</html>

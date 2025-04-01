@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reservation System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    {{!<link rel="stylesheet" href="./style.css">}}
+    <style>
+        body {
+    align-items: center;
+    background-color: #fff2df;
+    display:block;
+    justify-content: center;
+}
+
+.form {
+    background-color:#d9ad7c;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 20px;
+    width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #a2836e;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #674d3c;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    /* color: beige; */
+    color: #674d3c;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse; 
+    font-family: helvetica;
+    color: #fff2df;
+}
+
+
+td, th {
+    border:  1px solid;
+    padding: 7px;
+    min-width: 165px;
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+    color: #674d3c;
+}
+
+th {
+    background-color: #a2836e;
+}
+
+.table {
+    position: relative;
+    max-height:  300px;
+    width: 1340px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.header button {
+    position: relative;
+    float: right;
+    background-color: #a2836e;
+    color: #eee;
+    text-align: center;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 12px;
+    width: 7%;
+}
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="logout">
+            <form action="index_login.html">
+                <button class="topleft button-small" >Logout</button>
+            </form>
+        </div>
+        <div class="profile">
+            <form action="student_profile.html">
+                <button class="topleft button-small" >Profile</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="available-slots">
+        <div class="form">
+            <form action="available_slots.html">
+                <h1>Lab Reservation System!</h1>
+                <br>
+                <h2>Choose computer lab to reserve</h2>
+                <button type="submit" class="button">Computer Lab 1</button>
+                <button type="submit" class="button">Computer Lab 2</button>
+                <button type="submit" class="button">Computer Lab 3</button>
+            </form>
+            <form action="see_reservation.html">
+                <br><br>
+                <button type="submit" class="button">See reservations</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

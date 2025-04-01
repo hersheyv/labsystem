@@ -1,0 +1,162 @@
+body {
+    align-items: center;
+    background-color: #fff2df;
+    display:block;
+    justify-content: center;
+}
+
+.form {
+    background-color:#d9ad7c;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 20px;
+    width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.input {
+    background-color: #fff2df;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #674d3c;
+    font-size: 17px;
+    height: 150%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+label {
+    color: #674d3c;
+    font-size: 17px;
+}
+
+.button {
+    background-color: #a2836e;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #674d3c;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    /* color: beige; */
+    color: #674d3c;
+    text-align: center;
+}
+
+h3 {
+    font-size: 17px;
+    /* color: beige; */
+    color: #674d3c;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #674d3c;
+}
+
+table {
+    border-collapse: collapse; 
+    font-family: helvetica;
+    color: #fff2df;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #a2836e;
+    z-index: 1;
+}
+
+td, th {
+    border:  1px solid;
+    padding: 7px;
+    min-width: 165px;
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+    color: #674d3c;
+}
+
+th {
+    background-color: #a2836e;
+}
+
+.table {
+    position: relative;
+    max-height:  300px;
+    width: 1340px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.available {
+    color: green;
+}
+
+.reserved {
+    color: red;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.header button {
+    position: relative;
+    float: right;
+    background-color: #a2836e;
+    color: #eee;
+    text-align: center;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 12px;
+    width: 7%;
+}
+
+.table-see-reservation {
+    position: relative;
+    max-height:  300px;
+    width: 561px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
